@@ -1,17 +1,27 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+
+# Simple Next.js Project with Routing and API Fetch
+
+This project is a minimal Next.js app demonstrating the following features:
+
+- Basic routing between pages using Next.js `<Link>` component  
+- API route created inside `pages/api/hello.js` to serve JSON data  
+- Client-side fetching of API data using React hooks (`useEffect` and `useState`) with async/await  
+- Styling using Tailwind CSS for utility-first and responsive design  
+
+## How to Run
+
+1. Clone the repository  
+2. Install dependencies:  
+
+
 ## Getting Started
 
 First, run the development server:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm run dev --turbo
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
